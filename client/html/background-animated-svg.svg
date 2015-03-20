@@ -1,0 +1,11 @@
+<svg width="500" height="100" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <circle id="orange-circle" r="30" cx="50" cy="50" fill="orange" />
+  <animate 
+   xlink:href="#orange-circle"
+   attributeName="cx"
+   from="50"
+   to="450" 
+   dur="1s"
+   begin="click"
+   fill="freeze" />
+</svg>
